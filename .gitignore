@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Env
+.env
+
+# Virtualenv
+wikinbkdenv/
+venv/
+.env/
+
+# Media & Static (generated)
+media/
+static/
+
+# Docker
+*.log
+*.pid
+
+# OS
+.DS_Store
+
+# Excel / CSV dumps
+*.csv
+*.xlsx
+
+# Minikube
+minikube-linux-amd64
+
+.env
